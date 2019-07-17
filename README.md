@@ -4,4 +4,6 @@ It takes in a curl command copied from Chrome debugger and run corresponding wrk
 
 Usage:
 
-    python main.py "what-ever-chrome-copy-to-curl-give-you-quoted-of-course"
+    python main.py "what-ever-chrome-copy-to-curl-give-you-quoted-of-course" -t2 -c100 
+
+Arguments following the curl command will be copied to wrk command.
