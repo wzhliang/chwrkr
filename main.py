@@ -35,10 +35,10 @@ def convert(curl: str) -> list:
 
 def main():
     cmd = convert(sys.argv[1])
-    # print("-------")
-    # print(" ".join(cmd))
-    # print("-------")
-    subprocess.run(cmd, universal_newlines=True)
+    print("-------")
+    print(" ".join(cmd))
+    print("-------")
+    #subprocess.run(cmd, universal_newlines=True)
     # print(res)
 
 
